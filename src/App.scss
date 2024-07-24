@@ -12,6 +12,9 @@ body {
   overflow-x: hidden;
   background-color: #a8c4e6;
   position: relative;
+  border-top: 2vh solid transparent;
+  box-shadow: 0 0 44px 44px #a8c4e6;
+  padding-bottom: 3vh;
 }
 
 .App-header {
