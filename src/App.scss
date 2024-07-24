@@ -20,14 +20,34 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 1vmin);
   color: #48525D;
-  margin-bottom: 55vh;
+  margin-bottom: 65vh;
 
 }
 
 ul {
-  padding: 0px;
+  padding: 0;
+  width: 100vw;
+  list-style: none;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  display: flex;
+
+  img {
+    display: block;
+    top: 4vh;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+
+    @media screen and (min-width: 768px) {
+      transform: translateX(-50%) scale(1.2);
+    }
+  }
 }
 
 nav {
@@ -37,26 +57,76 @@ nav {
   left: 0;
   top: 0;
   width: 100vw;
+  display: flex;
 }
 
-nav li {
+nav li{
   
-  padding-top: 0px;
+  padding-top: 16vh;
   list-style: none;
-  display: inline-flex;
   text-align: center;
+  justify-content: center;
   vertical-align: middle;
+  display: inline-flex;
+  flex-basis: 100%;
+  flex-grow: 1;
+
+  .top-logo {
+    display: block;
+    left: 50%;
+    position: fixed;
+    top: 0;
+    transform: translateX(-50%);
+  }
+
+
+  @media screen and (min-width: 768px) {
+   display: inline-flex;
+  }
 }
 
 nav p { 
   text-align: center;
   color: #48525D;
   min-width: 15vw;
+  font-weight: bold;
 }
 
 .newsletter-signup-text {
   color: #48525D;
   font-size: 1.4rem;
+}
+
+.newsletter-signup {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
+  input {
+    padding: 24px;
+    font-size: 1.2rem;
+  }
+
+  button {
+    padding: 24px;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+
+      border: 2px solid #48525D;
+      color: #48525D;
+      background-color: transparent;
+      padding: 24px;
+      -webkit-user-select: none;
+      user-select: none;
+      transform-origin: center center;
+  
+      &:hover {
+        border-color: darken(#48525D, 10%);
+        color: darken(#48525D, 10%);
+        border-radius: 8px;
+        border-bottom: 8px solid darken(#48525D, 10%);
+      }
+  }
 }
 
 .App-logo {
@@ -112,6 +182,15 @@ table {
 
 .tour-dates_table-header {
   display: none;
+}
+
+tr td:nth-child(1) {
+  text-align: right;
+  font-weight: bold;
+}
+
+tr td:nth-child(2) {
+  text-align: left;
 }
 
 

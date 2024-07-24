@@ -1,8 +1,5 @@
-import logo from './PLACEHOLDER.png';
+import logo from './dps.png';
 import './App.scss';
-import './ContactForm'
-import ContactForm from './ContactForm';
-import PromoCard from './promo-card/PromoCard';
 
 import {ReactComponent as IconInsta} from './icon_insta.svg';
 import {ReactComponent as IconFb} from './icon_fb.svg';
@@ -16,9 +13,9 @@ function App() {
       <header className="App-header">
         <nav>
           <ul>
+            <img src={logo} className="App-logo top-logo" alt="logo" />
             <li><p>HOME</p></li>
             <li><p>STORE</p></li>
-            <li><img src={logo} className="App-logo" alt="logo" /></li>
             <li><p>SOCIAL</p></li>
             <li><p>CONTACT</p></li>
           </ul>
@@ -34,7 +31,7 @@ function App() {
           <p className='newsletter-signup-text'>STAY UP TO DATE</p>
           <form className='newsletter-signup-form'>
             <input className='newsletter-signup-input' type="text" placeholder="email address" />
-            <button className='newsletter-signup-button'>SUBSCRIBE</button>
+            <button className='newsletter-signup-button'>SIGN UP</button>
           </form>
         </div>
           <main>
