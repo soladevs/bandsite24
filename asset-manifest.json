@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/bandsite24/static/css/main.0dece3dc.css",
+    "main.js": "/bandsite24/static/js/main.f39cb488.js",
+    "static/js/453.c78790be.chunk.js": "/bandsite24/static/js/453.c78790be.chunk.js",
+    "static/media/dps.png": "/bandsite24/static/media/dps.8235aa367f7784ab6a31.png",
+    "index.html": "/bandsite24/index.html",
+    "static/media/icon_spotify.svg": "/bandsite24/static/media/icon_spotify.59511379f398df194337e6f4294cdbb9.svg",
+    "static/media/icon_insta.svg": "/bandsite24/static/media/icon_insta.049d597458795af560b1a394062a5a7a.svg",
+    "static/media/icon_fb.svg": "/bandsite24/static/media/icon_fb.7033cc2a55028ade7d5fb0938ef0535b.svg",
+    "static/media/icon_yt.svg": "/bandsite24/static/media/icon_yt.44d0398dc509c4ceab6395cdd495f951.svg",
+    "static/media/icon_apple.svg": "/bandsite24/static/media/icon_apple.257cb098b1beccf2386e610c9d0fe05d.svg",
+    "main.0dece3dc.css.map": "/bandsite24/static/css/main.0dece3dc.css.map",
+    "main.f39cb488.js.map": "/bandsite24/static/js/main.f39cb488.js.map",
+    "453.c78790be.chunk.js.map": "/bandsite24/static/js/453.c78790be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0dece3dc.css",
+    "static/js/main.f39cb488.js"
+  ]
+}

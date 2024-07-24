@@ -1,0 +1,10 @@
+<?xml version="1.0" ?><svg id="Bold" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><linearGradient id="fb" x1="0" y1="0.5" x2="1" y2="0.5">
+      <stop offset="100%" stop-color="#0866ff"/>
+      <stop offset="85.71%" stop-color="#0665ff"/>
+      <stop offset="71.43%" stop-color="#0465ff"/>
+      <stop offset="57.14%" stop-color="#0364ff"/>
+      <stop offset="42.86%" stop-color="#0163ff"/>
+      <stop offset="28.57%" stop-color="#0162ff"/>
+      <stop offset="0%" stop-color="#0161fe"/>
+    </linearGradient><title/><path d="M19.55,14.56a.5.5,0,0,1-.5.44H17a.5.5,0,0,0-.5.5v8a.5.5,0,0,0,.5.5h6a1,1,0,0,0,1-1V1a1,1,0,0,0-1-1H1A1,1,0,0,0,0,1V23a1,1,0,0,0,1,1H12a.5.5,0,0,0,.5-.5v-8A.5.5,0,0,0,12,15H10a.5.5,0,0,1-.5-.5v-3A.5.5,0,0,1,10,11h2a.5.5,0,0,0,.5-.5V9.19A5.69,5.69,0,0,1,18.19,3.5H19.5A.5.5,0,0,1,20,4V7a.5.5,0,0,1-.5.5H18.19A1.69,1.69,0,0,0,16.5,9.19V10.5a.5.5,0,0,0,.5.5h2.43a.5.5,0,0,1,.5.56Z"/>
+</svg>
