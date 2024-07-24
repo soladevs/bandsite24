@@ -26,7 +26,7 @@ body {
   justify-content: center;
   font-size: calc(10px + 1vmin);
   color: #48525D;
-  margin-bottom: 65vh;
+  margin-bottom: 70vh;
 }
 
 ul {
@@ -39,15 +39,23 @@ ul {
   align-content: center;
   flex-direction: row;
   display: flex;
+  margin: 0;
+  margin-top: 4vh;
 
   img {
     display: block;
+    height: auto;
     top: 4vh;
     position: fixed;
     left: 50%;
-    transform: translateX(-50%);
+    transform-origin: center center;
+    transform: translateX(-50%) scale(1.5);
 
     @media screen and (min-width: 768px) {
+      transform: translateX(-50%) scale(1.5);
+    }
+
+    @media screen and (min-width: 1600px) {
       transform: translateX(-50%) scale(1.2);
     }
   }
@@ -66,6 +74,7 @@ nav {
 nav li{
   
   padding-top: 18vh;
+  padding-bottom: 0;
   list-style: none;
   text-align: center;
   justify-content: center;
@@ -73,6 +82,16 @@ nav li{
   display: inline-flex;
   flex-basis: 100%;
   flex-grow: 1;
+  text-decoration: none;
+
+  a {
+    text-decoration: none;
+  }
+    &:hover {
+      border-bottom: 8px solid #48525D;
+      overflow: hidden;
+      font-size: 1.3rem;
+  }
 
   .top-logo {
     display: block;
@@ -81,7 +100,6 @@ nav li{
     top: 0;
     transform: translateX(-50%);
   }
-
 
   @media screen and (min-width: 768px) {
    display: inline-flex;

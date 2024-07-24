@@ -14,10 +14,10 @@ function App() {
         <nav>
           <ul>
             <img src={logo} className="App-logo top-logo" alt="logo" />
-            <li><p>HOME</p></li>
-            <li><p>STORE</p></li>
-            <li><p>SOCIAL</p></li>
-            <li><p>CONTACT</p></li>
+            <li><a href="#"><p>HOME</p></a></li>
+            <li><a href="#"><p>STORE</p></a></li>
+            <li><a href="#"><p>SOCIAL</p></a></li>
+            <li><a href="#"><p>CONTACT</p></a></li>
           </ul>
         </nav>
       </header>
