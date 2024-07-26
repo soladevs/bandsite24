@@ -37,7 +37,6 @@ const Social = () => {
             <button className='newsletter-signup-button'>SIGN UP</button>
           </form>
         </div>
-          <main>
           <div>
             <div className='social-links'>
               <ul>  
@@ -50,8 +49,6 @@ const Social = () => {
               <p className='social-title'>FOLLOW US</p>
             </div>
           </div>
-          </main>
-          
         </body>
     </div>
   );
