@@ -7,7 +7,7 @@ import Social from './Social';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/bandsite24">
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
