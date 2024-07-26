@@ -5,6 +5,11 @@ import App from './App';
 import './App.scss'; 
 
 const container = document.getElementById('root');
+
+document.title = "DPS"
+document.description = ""
+document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=device-width, initial-scale=1');
+
 const root = createRoot(container);
 
 root.render(
