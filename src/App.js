@@ -1,23 +1,18 @@
 import React from 'react';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter, useRoutes } from 'react-router-dom';
 import Home from './Home';
 import Store from './Store';
 import Contact from './Contact';
 import Social from './Social';
 
 const App = () => {
-  return (
-    <Router>
-      <div className="App">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/bandsite24/store" element={<Store />} />
-          <Route path="/bandsite24/social" element={<Social />} />
-          <Route path="/bandsite24/contact" element={<Contact />} />
-        </Routes>
-      </div>
-    </Router>
-  );
+  let routes = useRoutes([
+    { path: "/", element: <Home /> },
+    { path: "/store", element: <Store /> },
+    { path: "/contact", element: <Contact /> },
+    { path: "/social", element: <Social /> }
+  ]);
+  return routes;
 };
 
 export default App;
