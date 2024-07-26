@@ -18,9 +18,9 @@ const Contact = () => {
           <ul>
             <img src={logo} className="App-logo top-logo" alt="logo" />
             <li><a href="/bandsite24"><p>HOME</p></a></li>
-            <li><a href="/store"><p>STORE</p></a></li>
-            <li><a href="/social"><p>SOCIAL</p></a></li>
-            <li><a href="/contact"><p>CONTACT</p></a></li>
+            <li><a href="/bandsite24/store"><p>STORE</p></a></li>
+            <li><a href="/bandsite24/social"><p>SOCIAL</p></a></li>
+            <li><a href="/bandsite24/contact"><p>CONTACT</p></a></li>
           </ul>
         </nav>
       </header>
