@@ -1,0 +1,97 @@
+$listings-grid-gap: 16px;
+
+.listings {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: $listings-grid-gap;
+  padding: $listings-grid-gap;
+  max-width: 90vw;
+  margin: 0 auto;
+  @media screen and (min-width: 320px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (min-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media screen and (min-width: 1280px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.listing-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  .listing-image {
+    width: auto;
+    max-width: 50%;
+    min-height: 10vh;
+    max-height: 30vh;
+    height: auto;
+    margin-right: 16px;
+  }
+
+  .listing-details {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    .listing-title {
+      font-size: 1.5rem;
+      margin: 8px 0;
+      color: darken(#48525D, 20%);
+    }
+
+    .listing-description {
+      font-size: 1rem;
+      color: #666;
+      margin: 8px 0;
+    }
+
+    .listing-price {
+      font-size: 1.25rem;
+      color: darken(#48525D, 10%);
+      margin: 8px 0;
+      font-weight: bold;
+    }
+  }
+
+  button {
+    margin-left: auto;
+    border: 2px solid #48525D;
+    color: #48525D;
+    background-color: transparent;
+    font-size: 1rem;
+    padding: 10px;
+    -webkit-user-select: none;
+    user-select: none;
+    margin: 8px;
+    transform-origin: center center;
+    &:hover {
+      padding: 8px;
+      border-color: darken(#48525D, 10%);
+      color: darken(#48525D, 10%);
+      border-radius: 8px;
+      border-bottom: 8px solid darken(#48525D, 10%);
+    }
+  }
+  h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #48525D;
+    font-size: 2rem;
+  }
+  p {
+    font-family: 'Raleway', sans-serif;
+    color: #48525D;
+    font-size: 1.4rem;
+  }
+}

@@ -1,0 +1,137 @@
+.contact-form {
+    backdrop-filter: blur(4px);
+    z-index: 25;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    color: #48525D;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: 0;
+    flex-grow: 1;
+}
+
+.contact-form-header {
+    margin-bottom: 32px;
+}
+
+.management {
+  margin-bottom: 32px;
+}
+
+.management-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 4px;
+  padding: 0;
+}
+
+.management-name {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.management-email {
+  margin-top: 2px;
+  font-size: 1.2rem;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 4px;
+    font-size: 3rem;
+    @media screen and (min-width: 768px) {
+      font-size: 2rem;
+      
+    }
+  }
+  
+  /* Contact form styles */
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: 0;
+    flex-grow: 1;
+}
+
+  .contact-form label {
+    display: flex;
+    font-size: 1.2rem;
+    margin-right: 16px;
+    text-transform: uppercase;
+    align-self: baseline;
+}
+  
+  .contact-form input,
+  .contact-form textarea {
+    display: flex;
+    width: 35vw;
+    padding: 10px;    
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+    margin-bottom: 32px;
+    font-family: 'Raleway', sans-serif;
+    align-items: right;
+    color: #48525D;
+    backdrop-filter: blur(10px);
+
+    &:active {
+        border: 2px solid #48525D;
+    }
+    
+    display: inline;
+
+    height: 5vh;
+    width: 65vw;
+
+    @media screen and (min-width: 768px) {
+        height: 5vh;
+        width: 45vw;
+    }
+  }
+
+  #message {
+    padding: 4px;
+    height: 35vh;
+    width: 75vw;
+    margin-bottom: 4px;
+
+    @media screen and (min-width: 768px) {
+        height: 23vh;
+        width: 45vw;
+    }
+
+    padding-top: 0;
+    vertical-align: top;
+
+  } 
+  
+  .contact-form button {
+    display: block;
+    position: relative;
+    background-color: transparent;
+    color: #48525D;
+    border: 2px solid #48525D;
+    color: #48525D;
+    background-color: transparent;
+    font-size: 1.5rem;
+    padding: 12px;
+    margin: 0 auto;
+  }
+  
+  .contact-form button:hover {
+      padding: 8px;
+      border-color: darken(#48525D, 10%);
+      color: darken(#48525D, 10%);
+      border-radius: 8px;
+      border-bottom: 8px solid darken(#48525D, 10%);
+  }
+  
