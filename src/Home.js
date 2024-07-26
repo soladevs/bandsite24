@@ -96,7 +96,7 @@ const Home = () => {
                 <li><a className='social-icon-link spotify' href="https://open.spotify.com/artist/31M8EXHYtEqOqVb1X7JRVe"><IconSpotify className='social-icon spotify' /></a></li>
                 <li><a className='social-icon-link applemusic' href="https://music.apple.com/us/artist/dead-poet-society/583985425"><IconApple className='social-icon applemusic' /></a></li>
               </ul>
-              <p className='social-title'>FOLLOW US</p>
+              <p className='social-title'>DEAD POET SOCIETY</p>
             </div>
           </div>
         </body>
