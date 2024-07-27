@@ -52,8 +52,12 @@ ul {
     left: 50%;
     transform-origin: center center;
     -webkit-transform-origin: center center;
-    transform: translateX(-50%) scale(1.4);
+    transform: translateX(-50%) scale(1.5);
     vertical-align: middle;
+
+    @media screen and (min-width: 320px) {
+      transform: translateX(-50%) scale(1.4);
+    }
   }
 }
 
@@ -103,8 +107,8 @@ nav li{
 
   padding-top: 5vh;
 
-  @media screen and (min-width: 768px) {
-    padding-top: 10vh;
+  @media screen and (min-width: 480px) {
+    padding-top: 12vh;
   }
 
   @media screen and (min-width: 1024px) {
@@ -328,7 +332,8 @@ button:hover {
 }
 
 .hero-image_gradient::before {
-      background-attachment: scroll;
+      background-attachment: fixed;
+      pointer-events: none;
       content: "";
    	  position: fixed;
       bottom:0;
