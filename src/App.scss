@@ -34,7 +34,6 @@ body {
 
 ul {
   padding: 0;
-  width: 100vw;
   list-style: none;
   text-align: center;
   justify-content: space-between;
@@ -80,6 +79,12 @@ nav {
   display: flex;
 }
 
+nav ul {
+  width: 80vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
 nav li{
   
   padding-top: 18vh;
@@ -108,6 +113,7 @@ nav li{
     position: fixed;
     top: 0;
     transform: translateX(-50%);
+    max-width: 90vw;
   }
 
   @media screen and (min-width: 768px) {
@@ -236,6 +242,7 @@ tr td:nth-child(2) {
   margin-bottom: 8px;
   font-family: 'Raleway', sans-serif;
   color: #48525D;
+  padding-left: 48px;
 }
 .social-links {
   margin-top: 7vh;
