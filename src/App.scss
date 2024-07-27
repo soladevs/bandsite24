@@ -58,10 +58,12 @@ ul {
 
     @media screen and (min-width: 768px) {
       transform: translateX(-50%) scale(1.5);
+      -webkit-transform: translateX(-50%) scale(1.5);
     }
 
     @media screen and (min-width: 1600px) {
       transform: translateX(-50%) scale(1.2);
+      -webkit-transform: translateX(-50%) scale(1.2);
     }
   }
 }
@@ -149,6 +151,7 @@ nav p {
       -webkit-user-select: none;
       user-select: none;
       transform-origin: center center;
+      -webkit-transform-origin: center center;
   
       &:hover {
         border-color: darken(#48525D, 10%);
@@ -315,7 +318,7 @@ button:hover {
   position: fixed;
   z-index: -1;
   top: 70%;
-  left: 50%;
+  margin-left: 50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   background-color: #a8c4e6;
@@ -335,7 +338,7 @@ button:hover {
       right:0;
       width: 500vw;
       height: 300vh;
-      //animation: moveBg 0.25s linear infinite;
+      animation: moveBg 0.25s linear infinite;
       z-index: 5;
       background-repeat: repeat;
       background-size: 2%;
