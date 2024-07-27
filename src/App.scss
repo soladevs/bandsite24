@@ -184,6 +184,7 @@ table {
 
 .tour-dates_table {
   text-align: center;
+  padding-right: 5vw;
   td {
     min-width: 12vw;
     padding: 24px;
@@ -192,13 +193,10 @@ table {
   button {
     border: 2px solid #48525D;
     letter-spacing: 1px;
-
     color: #48525D;
     background-color: transparent;
     font-size: 1rem;
     padding: 10px;
-    -webkit-user-select: none;
-    user-select: none;
     margin: 8px;
     transform-origin: center center;
 
