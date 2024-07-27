@@ -315,6 +315,7 @@ button:hover {
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
   background-color: #a8c4e6;
   mix-blend-mode: darken;  
   img {
@@ -328,7 +329,7 @@ button:hover {
    	  position: fixed;
       top:-70%;
       bottom:0;
-      left:-50vw;
+      left:-150vw;
       right:0;
       width: 500vw;
       height: 300vh;
