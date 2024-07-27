@@ -20,14 +20,16 @@
 }
 
 .management {
-  margin-bottom: 32px;
+  margin-bottom: 48px;
 }
 
 .management-title {
   font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 4px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
   padding: 0;
+  
 }
 
 .management-name {
@@ -42,12 +44,16 @@
 
 .contact-form h2 {
     text-align: center;
-    margin-bottom: 4px;
-    font-size: 3rem;
-    @media screen and (min-width: 768px) {
-      font-size: 2rem;
-      
-    }
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: normal;
+    margin: 8px;
+  }
+
+.contact-form-header p {
+    margin-top: 0;
+    font-size: 1.2rem;
+    font-weight: normal;
   }
   
   /* Contact form styles */
