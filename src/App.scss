@@ -101,7 +101,8 @@ nav li{
   a {
     text-decoration: none;
   }
-    &:hover, &.active {
+  
+  &:hover, &.active {
       border-bottom: 8px solid #48525D;
       font-size: 1.3rem;
   }
@@ -331,6 +332,11 @@ button:hover {
   mix-blend-mode: darken;  
   img {
     height: 100vh;
+    margin-top: 5vh;
+
+    @media screen and (min-width: 768px) {
+      margin-top: 2vh;
+    }
   }
 }
 
