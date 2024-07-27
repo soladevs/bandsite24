@@ -81,8 +81,8 @@ nav {
 
 nav ul {
   width: 80vw;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 nav li{
@@ -103,7 +103,6 @@ nav li{
   }
     &:hover {
       border-bottom: 8px solid #48525D;
-      overflow: hidden;
       font-size: 1.3rem;
   }
 
@@ -148,18 +147,17 @@ nav p {
 
   button {
     padding: 24px;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     letter-spacing: 1px;
     font-family: 'Raleway', sans-serif;
 
-      border: 2px solid #48525D;
-      color: #48525D;
-      background-color: transparent;
-      padding: 24px;
-      -webkit-user-select: none;
-      user-select: none;
-      transform-origin: center center;
-      -webkit-transform-origin: center center;
+    border: 2px solid #48525D;
+    color: #48525D;
+    background-color: transparent;
+    -webkit-user-select: none;
+    user-select: none;
+    transform-origin: center center;
+    -webkit-transform-origin: center center;
   
       &:hover {
         border-color: darken(#48525D, 10%);
