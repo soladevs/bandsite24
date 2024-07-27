@@ -9,21 +9,14 @@ import {ReactComponent as IconSpotify} from './icon_spotify.svg';
 import {ReactComponent as IconApple} from './icon_apple.svg';
 import Listings from './Listings';
 import ContactForm from './ContactForm';
+import NavBar from './NavBar';
 
 
 const Home = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <nav>
-          <ul>
-            <img src={logo} className="App-logo top-logo" alt="logo" />
-            <li><a href="/bandsite24"><p>HOME</p></a></li>
-            <li><a href="/bandsite24/#store"><p>STORE</p></a></li>
-            <li><a href="/bandsite24/#social"><p>SOCIAL</p></a></li>
-            <li><a href="/bandsite24/#contact"><p>CONTACT</p></a></li>
-          </ul>
-        </nav>
+        <NavBar active='home'/>
       </header>
       <body>
         <div className="hero-image">

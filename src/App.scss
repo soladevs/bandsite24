@@ -101,7 +101,7 @@ nav li{
   a {
     text-decoration: none;
   }
-    &:hover {
+    &:hover, &.active {
       border-bottom: 8px solid #48525D;
       font-size: 1.3rem;
   }
