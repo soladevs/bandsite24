@@ -51,6 +51,7 @@ ul {
     position: fixed;
     left: 50%;
     transform-origin: center center;
+    -webkit-transform-origin: center center;
     transform: translateX(-50%) scale(1.5);
 
     @media screen and (min-width: 768px) {
