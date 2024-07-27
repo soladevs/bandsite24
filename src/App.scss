@@ -351,13 +351,16 @@ button:hover {
   0% {
     background-position: 0 0;
     transform: translateX(0);
+    -webkit-transform: translateX(0);
   } 
   50% {
     background-position: 100% 0;
     transform: translateX(-5%);
+    -webkit-transform: translateX(-5%);
   }
   100% {
     background-position: 0 0;
     transform: translateX(0);
+    -webkit-transform: translateX(0);
   }
 }
