@@ -1,20 +1,38 @@
 {
   "files": {
-    "main.css": "/bandsite24/static/css/main.0d975a62.css",
+    "main.css": "/bandsite24/static/css/main.78ba33e9.css",
     "main.js": "/bandsite24/static/js/main.34abb18b.js",
     "static/media/statue.png": "/bandsite24/static/media/statue.a5274fb979c26bea5ad7.png",
     "static/media/dps.png": "/bandsite24/static/media/dps.8235aa367f7784ab6a31.png",
+    "static/media/Raleway-SemiBold.woff": "/bandsite24/static/media/Raleway-SemiBold.26099f97b4d575bd0087.woff",
+    "static/media/Raleway-Bold.woff": "/bandsite24/static/media/Raleway-Bold.875d94b7ef9bebf507d0.woff",
+    "static/media/Raleway-ExtraBold.woff": "/bandsite24/static/media/Raleway-ExtraBold.d07643b68da709b69171.woff",
+    "static/media/Raleway-Light.woff": "/bandsite24/static/media/Raleway-Light.309d0965e60fed164e37.woff",
+    "static/media/Raleway-Medium.woff": "/bandsite24/static/media/Raleway-Medium.b6ac5e35a22d3269b950.woff",
+    "static/media/Raleway-Black.woff": "/bandsite24/static/media/Raleway-Black.f9b4f5e51c82585e785f.woff",
+    "static/media/Raleway-ExtraLight.woff": "/bandsite24/static/media/Raleway-ExtraLight.fe2c6092b38e06632376.woff",
+    "static/media/Raleway-Thin.woff": "/bandsite24/static/media/Raleway-Thin.662223ee408112ae2060.woff",
+    "static/media/Raleway-BlackItalic.woff": "/bandsite24/static/media/Raleway-BlackItalic.3f5ee74d0fd30d5f44d5.woff",
+    "static/media/Raleway-ExtraBoldItalic.woff": "/bandsite24/static/media/Raleway-ExtraBoldItalic.3cc70ccc1907d261d2e6.woff",
+    "static/media/Raleway-BoldItalic.woff": "/bandsite24/static/media/Raleway-BoldItalic.953365bc62cd8fa92a3b.woff",
+    "static/media/Raleway-SemiBoldItalic.woff": "/bandsite24/static/media/Raleway-SemiBoldItalic.5669f077cc37258611da.woff",
+    "static/media/Raleway-MediumItalic.woff": "/bandsite24/static/media/Raleway-MediumItalic.effc407c4e5ae5bb8cd3.woff",
+    "static/media/Raleway-LightItalic.woff": "/bandsite24/static/media/Raleway-LightItalic.df893c73c56fe8cdc71b.woff",
+    "static/media/Raleway-Italic.woff": "/bandsite24/static/media/Raleway-Italic.9c28e01718776a6938b9.woff",
+    "static/media/Raleway-ExtraLightItalic.woff": "/bandsite24/static/media/Raleway-ExtraLightItalic.efe9fd72c9ab650ff5d5.woff",
+    "static/media/Raleway-Regular.woff": "/bandsite24/static/media/Raleway-Regular.835579d7fd2f3276ed41.woff",
+    "static/media/Raleway-ThinItalic.woff": "/bandsite24/static/media/Raleway-ThinItalic.f545835b0acb834c0637.woff",
     "index.html": "/bandsite24/index.html",
     "static/media/icon_spotify.svg": "/bandsite24/static/media/icon_spotify.59511379f398df194337e6f4294cdbb9.svg",
     "static/media/icon_insta.svg": "/bandsite24/static/media/icon_insta.049d597458795af560b1a394062a5a7a.svg",
     "static/media/icon_fb.svg": "/bandsite24/static/media/icon_fb.7033cc2a55028ade7d5fb0938ef0535b.svg",
     "static/media/icon_yt.svg": "/bandsite24/static/media/icon_yt.44d0398dc509c4ceab6395cdd495f951.svg",
     "static/media/icon_apple.svg": "/bandsite24/static/media/icon_apple.257cb098b1beccf2386e610c9d0fe05d.svg",
-    "main.0d975a62.css.map": "/bandsite24/static/css/main.0d975a62.css.map",
+    "main.78ba33e9.css.map": "/bandsite24/static/css/main.78ba33e9.css.map",
     "main.34abb18b.js.map": "/bandsite24/static/js/main.34abb18b.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d975a62.css",
+    "static/css/main.78ba33e9.css",
     "static/js/main.34abb18b.js"
   ]
 }
