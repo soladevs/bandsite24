@@ -4,11 +4,7 @@
   text-align: center;
 }
 
-header {
-}
-
 body {
-  box-sizing: border-box;
   max-width: 100vw;
   overflow-x: hidden;
   background-color: #a8c4e6;
@@ -46,25 +42,16 @@ ul {
   margin-top: 4vh;
 
   img {
-    max-width: 75vw;
     display: block;
     height: auto;
+    max-width: 50vw;
+    max-height: 14vh;
     top: 4vh;
     position: fixed;
     left: 50%;
     transform-origin: center center;
     -webkit-transform-origin: center center;
-    transform: translateX(-50%) scale(1.5);
-
-    @media screen and (min-width: 768px) {
-      transform: translateX(-50%) scale(1.5);
-      -webkit-transform: translateX(-50%) scale(1.5);
-    }
-
-    @media screen and (min-width: 1600px) {
-      transform: translateX(-50%) scale(1.2);
-      -webkit-transform: translateX(-50%) scale(1.2);
-    }
+    transform: translateX(-50%) scale(1.4);
   }
 }
 
@@ -72,22 +59,20 @@ nav {
   min-width: 100vw;
   background-color: #a8c4e6;
   position: fixed;
-  align-self: baseline;
+  align-self: center;
   left: 0;
-  top: 0;
+  top: 15vh;
   width: 100vw;
-  display: flex;
 }
 
 nav ul {
   width: 80vw;
   padding-left: 10vw;
   padding-right: 10vw;
+  align-self: center;
 }
 
-nav li{
-  
-  padding-top: 18vh;
+nav li{ //18vh
   padding-bottom: 0;
   list-style: none;
   text-align: center;
@@ -168,14 +153,6 @@ nav p {
   }
 }
 
-.App-logo {
-  height: 15vh;
-  display: inline-flex;
-  pointer-events: none;
-  vertical-align: middle;
-  padding: 0px;
-}
-
 main {
   display: flex;
   min-width: 100vw;
@@ -189,6 +166,7 @@ table {
   color: #48525D;
   text-align: center;
   max-width: 75vw;
+  margin: auto;
   font-family: 'Raleway', sans-serif;
 }
 
