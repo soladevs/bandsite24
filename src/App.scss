@@ -74,7 +74,6 @@ nav ul {
 }
 
 nav li{ 
-  padding-top: 15vh;
   list-style: none;
   text-align: center;
   justify-content: center;
@@ -102,9 +101,16 @@ nav li{
     transform: translateX(-50%);
   }
 
+  padding-top: 5vh;
+
   @media screen and (min-width: 768px) {
-   display: inline-flex;
+    padding-top: 10vh;
   }
+
+  @media screen and (min-width: 1024px) {
+    padding-top: 12vh;
+  }
+
 }
 
 nav p { 
