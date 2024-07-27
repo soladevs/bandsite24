@@ -329,7 +329,7 @@ button:hover {
 }
 
 .hero-image_gradient::before {
-  background-attachment: fixed;
+      background-attachment: scroll;
       content: "";
    	  position: fixed;
       bottom:0;
