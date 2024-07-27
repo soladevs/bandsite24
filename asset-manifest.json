@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bandsite24/static/css/main.9a0f16c7.css",
+    "main.css": "/bandsite24/static/css/main.91a4b8ff.css",
     "main.js": "/bandsite24/static/js/main.a5e0d92c.js",
     "static/media/statue.png": "/bandsite24/static/media/statue.a5274fb979c26bea5ad7.png",
     "static/media/dps.png": "/bandsite24/static/media/dps.8235aa367f7784ab6a31.png",
@@ -28,11 +28,11 @@
     "static/media/icon_fb.svg": "/bandsite24/static/media/icon_fb.7033cc2a55028ade7d5fb0938ef0535b.svg",
     "static/media/icon_yt.svg": "/bandsite24/static/media/icon_yt.44d0398dc509c4ceab6395cdd495f951.svg",
     "static/media/icon_apple.svg": "/bandsite24/static/media/icon_apple.257cb098b1beccf2386e610c9d0fe05d.svg",
-    "main.9a0f16c7.css.map": "/bandsite24/static/css/main.9a0f16c7.css.map",
+    "main.91a4b8ff.css.map": "/bandsite24/static/css/main.91a4b8ff.css.map",
     "main.a5e0d92c.js.map": "/bandsite24/static/js/main.a5e0d92c.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a0f16c7.css",
+    "static/css/main.91a4b8ff.css",
     "static/js/main.a5e0d92c.js"
   ]
 }
